@@ -1,2 +1,15 @@
 'use strict';
-document.querySelector(".number").textContent = 10;
+let hiddenNumber = document.querySelector(".number").textContent = 10;
+const again = document.querySelector(".again").textContent;
+let guess = document.querySelector('.guess').value;
+let message = document.querySelector(".message").textContent;
+let score = document.querySelector('.score');
+let highScore = document.querySelector('.highScore');
+
+
+
+const check = document.querySelector(".check").addEventListener('click',function(){
+    if(guess===hiddenNumber){
+        message = 'correct';
+    }
+} );
