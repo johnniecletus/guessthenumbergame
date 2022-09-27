@@ -7,7 +7,7 @@ var highScore = document.querySelector('.highScore');
 
 
 
-check = document.querySelector(".check").addEventListener('click', function(){    
+const check = document.querySelector(".check").addEventListener('click', function(){    
 let guess = document.querySelector('.guess').value;
 let message = document.querySelector('.message').textContent;
     if(!guess){
