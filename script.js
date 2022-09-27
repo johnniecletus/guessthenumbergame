@@ -11,10 +11,10 @@ const check = document.querySelector(".check").addEventListener('click', functio
 let guess = Number(document.querySelector('.guess').value);
 let message = document.querySelector('.message').textContent;
     if(!guess){
-        message = 'no guess done!!!';
-    }else if(guess === hiddenNumber){
-        message = 'correct guess!!!'
-    }else{
+        message = 'no guess done!!!';}
+    // }else if(guess === hiddenNumber){
+    //     message = 'correct guess!!!';
+    // }else{
 
-    }
+    // }
 });
