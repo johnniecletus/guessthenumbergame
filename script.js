@@ -8,7 +8,7 @@ var highScore = document.querySelector('.highScore');
 
 
 const check = document.querySelector(".check").addEventListener('click', function(){    
-let guess = document.querySelector('.guess').value = 10;
+let guess = document.querySelector('.guess').value;
     if(!guess){
         document.querySelector('.message').textContent = 'no guess done!!!';
     }
