@@ -11,6 +11,7 @@ document.querySelector(".check").addEventListener('click', function(){
 let guess = document.querySelector('.guess').value;
 let message = document.querySelector('.message').textContent;
     if(!guess){
+        
         message = 'no guess done!!!';
     }else if(guess === hiddenNumber){
         message = 'correct guess!!!'
