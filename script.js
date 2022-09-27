@@ -1,6 +1,6 @@
 'use strict';
 const again = document.querySelector(".again").textContent;
-const hiddenNumber = math.trunc(math.random()*10)+1;
+const hiddenNumber = Math.trunc(Math.random()*10)+1;
 document.querySelector(".number").textContent = hiddenNumber;
 var score = document.querySelector('.score');
 var highScore = document.querySelector('.highScore');
