@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 const again = document.querySelector(".again").textContent;
 const hiddenNumber = Math.trunc(Math.random()*10)+1;
 document.querySelector(".number").textContent = hiddenNumber;
