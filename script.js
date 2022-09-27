@@ -9,7 +9,7 @@ let highScore = document.querySelector('.highScore');
 
 
 const check = document.querySelector(".check").addEventListener('click',function(){
-    if(guess===hiddenNumber){
+    if(guess === hiddenNumber){
         message = 'correct';
     }
 } );
