@@ -1,7 +1,7 @@
 'use strict';
 let hiddenNumber = document.querySelector(".number").textContent = 10;
 const again = document.querySelector(".again").textContent;
-let guess = document.querySelector('.guess').value;
+let guess = document.querySelector('.guess').value = 10;
 let message = document.querySelector(".message").textContent;
 let score = document.querySelector('.score');
 let highScore = document.querySelector('.highScore');
