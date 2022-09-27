@@ -11,5 +11,6 @@ let highScore = document.querySelector('.highScore');
 let check = document.querySelector(".check").addEventListener('click',function(){
     if(guess === hiddenNumber){
         message = 'correct guess';
+        
     }
 });
