@@ -24,7 +24,7 @@ if(!guess){
             document.querySelector('.highscore').textContent = highScore;
         }
         // if the guess is wrong
-        else if(guess !== hiddenNumber){
+        }else if(guess !== hiddenNumber){
             if (score>1){
                 message.textContent = guess < hiddenNumber ? '📉 Too low!!!' : '📈 Too high!!!';
                 score--;
@@ -34,9 +34,7 @@ if(!guess){
                 scoreUpdate.textContent = 0;
             }
         }
-     }
-    }
-);
+    });
 
 
 document.querySelector('.again').addEventListener('click', function(){
